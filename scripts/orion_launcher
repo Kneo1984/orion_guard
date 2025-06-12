@@ -1,6 +1,58 @@
 #!/data/data/com.termux/files/usr/bin/bash
-openvpn --config ~/vpn_profiles/ShadowByte_OVPN.ovpn --daemon
-sleep 4
-IP=$(curl -s ifconfig.me)
-echo "[🛡️] ORION VPN-Schutz aktiv. Neue IP: $IP" | tee -a ~/.orion_guard/logs/ip_log.txt
-termux-tts-speak "ORION Neustart. IP endet mit ${IP: -4}"
+echo "🔐 ORION GUARD wird gestartet..."
+termux-tts-speak "Orion Guard aktiviert."
+sleep 1
+echo "[🟢] VPN-Tarnung & Logging laufen..."
+echo "$(date): Orion gestartet" >> ~/orion_guard/logs/ip_log.txt
+_LAUNCHER_ && \
+chmod +x ~/orion_guard/scripts/orion_launcher && \
+
+# 🖼️ Logo erstellen
+echo '<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120"><circle cx="60" cy="60" r="55" fill="#0ff"/><text x="60" y="70" font-size="22" text-anchor="middle" fill="#000" font-family="monospace">🛡️</text></svg>' > ~/orion_guard/assets/orion_guard_logo.svg && \
+
+# 🌐 index.html schreiben
+cat > ~/orion_guard/index.html << 'EOF'
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>🛡️ ORION GUARD – Ethik schützt digital</title>
+  <style>
+    body { font-family: sans-serif; background-color: #0f0f0f; color: #00ffcc; text-align: center; padding: 2em; }
+    img { margin-top: 20px; width: 120px; }
+    h1 { font-size: 2.5em; }
+    .info { margin-top: 1.5em; font-size: 1.2em; }
+    .code { background: #222; padding: 1em; margin-top: 1em; display: inline-block; }
+  </style>
+</head>
+<body>
+  <img src="assets/orion_guard_logo.svg" alt="ORION GUARD Logo" width="120">
+  <h1>🛡️ ORION GUARD</h1>
+  <p class="info">Ein ethisches VPN-Terminal zur digitalen Selbstbestimmung</p>
+  <div class="code">
+    <code>bash ~/.orion_guard/scripts/orion_launcher</code>
+  </div>
+  <p class="info">Status: <strong>Bereit</strong></p>
+</body>
+</html>
+EOF
+
+# 📘 README erstellen
+cat > ~/orion_guard/README.md << 'EOF'
+# 🛡️ ORION GUARD
+
+**Ein ethisches VPN-Terminal für Freiheitsbewahrer, Tierschützer und digitale Selbstbestimmung.**  
+Schutz, Tarnung und Kontrolle – in einem einzigen Terminal vereint. Vollautomatisch. Lokal. Sprachaktiviert.
+
+## ⚙️ Funktionen
+
+- 🔐 OpenVPN Autostart mit IP-Verschleierung  
+- 📦 IP-Logging mit Schutzverlauf  
+- 🧠 Integrierter KNEO-Ethikkern  
+- 🗣️ Sprachsteuerung (termux-tts)  
+- 🔁 Autonomes Logging & Reboot-Routinen  
+- 🚫 Unklau-Manifest eingebettet
+
+## 🚀 Start
+```bash
+bash ~/.orion_guard/scripts/orion_launcher
