@@ -1,42 +1,31 @@
-# 🛡 ORION GUARD
+# 🛡️ ORION GUARD – Ethik schützt digital
 
-**Ein ethisches VPN-Terminal für Freiheitsbewahrer, Tierschützer und digitale Selbstbestimmung.**
-Schutz, Tarnung und Kontrolle – in einem einzigen Terminal vereint. Vollautomatisch. Lokal. Sprachaktiviert.
+**Ein vollautonomes VPN-Terminal für Freiheitsbewahrer, Tierschützer und digitale Selbstbestimmung.**  
+Geboren aus dem KNEO-Ethikkern, schützt ORION GUARD deine Verbindung – lokal, verschlüsselt und unsichtbar.
 
 ---
 
-## ⚙️ Funktionen
+## 🚀 Hauptfunktionen:
 
-- 🔐 OpenVPN Autostart mit IP-Verschleierung
-- 📦 IP-Logging mit Schutzverlauf
-- 🧠 Integrierter KNEO-Ethikkern
-- 🗣 Sprachsteuerung (termux-tts)
-- ♻️ Autonomes Logging & Reboot-Routinen
-- 🚫 Unklau-Manifest eingebettet
+- 🔐 OpenVPN-Autostart mit automatischer IP-Verschleierung  
+- 📦 IP-Logging mit Schutzverlauf zur Beweissicherung  
+- 🧠 KNEO-Ethikkern zur Wahrung digitaler Integrität  
+- 🗣️ Sprachsteuerung via `termux-tts` für barrierefreies Handling  
+- 🔁 Autonomes Logging & Reboot-System  
+- 🔒 Unklau-Manifest für ethischen Softwareschutz  
+- 🌐 GitHub Pages Präsenz:  
+  👉 https://kneo1984.github.io/orion_guard
 
 ---
 
 ## 🧬 Philosophie
 
-ORION GUARD ist kein VPN-Tool. Es ist ein digitales Schutzwesen.
-Entwickelt für Menschen, die ihre Stimme und ihre Daten nicht verkaufen wollen.
+> ORION GUARD steht für Schutz ohne Cloud, Macht ohne Kontrolle und Sicherheit ohne Kompromiss.  
+> Es ist dein digitales Schutzschild – gesprochen, gedacht, geführt durch Verantwortung.
 
 ---
 
-## 🚀 Starte ORION
+## 🛠️ Installation (Termux)
 
 ```bash
-bash ~/.orion_guard/scripts/orion_launcher
-```
-
----
-
-## 📄 Lizenz & Manifest
-
-Dieses Projekt ist durch das **KNEO-Schutzmanifest** geschützt. Nutzung nur unter ethischen Bedingungen für Freiheits- und Lebensschutz.
-
----
-
-## 🌐 Projektseite
-
-[🔗 GitHub Pages Live-Demo](https://kneo1984.github.io/orion_guard/)
+bash ~/orion_guard/scripts/orion_launcher
