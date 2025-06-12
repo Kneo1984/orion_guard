@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "🛡️ ORION GUARD erfolgreich installiert!"
+echo "Starte mit: orion_guard"
+
