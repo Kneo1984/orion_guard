@@ -1,31 +1,27 @@
-# 🛡️ ORION GUARD – Ethik schützt digital
+# 🛡️ ORION GUARD
 
-**Ein vollautonomes VPN-Terminal für Freiheitsbewahrer, Tierschützer und digitale Selbstbestimmung.**  
-Geboren aus dem KNEO-Ethikkern, schützt ORION GUARD deine Verbindung – lokal, verschlüsselt und unsichtbar.
+**Ein ethisches VPN-Terminal für Freiheitsbewahrer, Tierschützer und digitale Selbstbestimmung.**  
+Schutz, Tarnung und Kontrolle – in einem einzigen Terminal vereint. Vollautomatisch. Lokal. Sprachaktiviert.
 
----
+## ⚙️ Funktionen
 
-## 🚀 Hauptfunktionen:
+- 🔐 OpenVPN Autostart mit IP-Verschleierung  
+- 📦 IP-Logging mit Schutzverlauf  
+- 🧠 Integrierter KNEO-Ethikkern  
+- 🗣️ Sprachsteuerung (termux-tts)  
+- 🔁 Autonomes Logging & Reboot-Routinen  
+- 🚫 Unklau-Manifest eingebettet
 
-- 🔐 OpenVPN-Autostart mit automatischer IP-Verschleierung  
-- 📦 IP-Logging mit Schutzverlauf zur Beweissicherung  
-- 🧠 KNEO-Ethikkern zur Wahrung digitaler Integrität  
-- 🗣️ Sprachsteuerung via `termux-tts` für barrierefreies Handling  
-- 🔁 Autonomes Logging & Reboot-System  
-- 🔒 Unklau-Manifest für ethischen Softwareschutz  
-- 🌐 GitHub Pages Präsenz:  
-  👉 https://kneo1984.github.io/orion_guard
-
----
-
-## 🧬 Philosophie
-
-> ORION GUARD steht für Schutz ohne Cloud, Macht ohne Kontrolle und Sicherheit ohne Kompromiss.  
-> Es ist dein digitales Schutzschild – gesprochen, gedacht, geführt durch Verantwortung.
-
----
-
-## 🛠️ Installation (Termux)
-
+## 🚀 Start
 ```bash
-bash ~/orion_guard/scripts/orion_launcher
+bash ~/.orion_guard/scripts/orion_launcher
+## ☁️ Unterstütze ORION GUARD
+
+**Werde Teil der digitalen Schutzbewegung.**
+
+🌐 Projektseite: https://kneo1984.github.io/orion_guard  
+💸 Spende: https://www.buymeacoffee.com/kneo1984  
+🛡️ Lizenz: MIT – Ethik verpflichtet.  
+📦 Installer: [.deb, Termux, GitHub] folgen in Kürze.
+
+
