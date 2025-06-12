@@ -1,0 +1,6 @@
+#!/data/data/com.termux/files/usr/bin/bash
+openvpn --config ~/vpn_profiles/ShadowByte_OVPN.ovpn --daemon
+sleep 4
+IP=$(curl -s ifconfig.me)
+echo "[🛡️] ORION VPN-Schutz aktiv. Neue IP: $IP" | tee -a ~/.orion_guard/logs/ip_log.txt
+termux-tts-speak "ORION Neustart. IP endet mit ${IP: -4}"
