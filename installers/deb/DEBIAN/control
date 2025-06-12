@@ -1,0 +1,7 @@
+Package: orion-guard
+Version: 1.0
+Section: base
+Priority: optional
+Architecture: all
+Maintainer: Dennis Maier <kneolekks@gmail.com>
+Description: 🛡️ ORION GUARD – Autonomes VPN-Terminal mit ethischer Schutzstruktur für digitale Souveränität.
