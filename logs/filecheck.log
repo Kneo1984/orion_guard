@@ -1,0 +1,11 @@
+📂 ORION GUARD – DATEI-CHECK  Fri Jun 13 01:55:35 CEST 2025
+----------------------------------------
+✅ README.md vorhanden.
+✅ Landing-Page vorhanden.
+✅ PayPal-QR vorhanden.
+0b4fedce6f0e45f6647aa92cd102f857922c6016f18358632bda7da5a4344a76  /data/data/com.termux/files/home/orion_guard/public/orion_guard_1.0.deb
+✅ orion_guard_1.0.deb bereit & Hash geloggt.
+458505790f1634633297744e39fccb2c46756a380633a96189a7ad00a73858fa  /data/data/com.termux/files/home/orion_guard/public/orion_guard_release_package.zip
+✅ orion_guard_release_package.zip bereit & Hash geloggt.
+✅ Launcher vorhanden & ausführbar.
+🎉 Datei-Check abgeschlossen – Details in logs/filecheck.log

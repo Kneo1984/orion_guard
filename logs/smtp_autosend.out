@@ -1,0 +1,11 @@
+nohup: ignoring input
+  File "/data/data/com.termux/files/home/orion_guard/autosend/smtp_autosend.py", line 24
+    f.write(f"{time.strftime(%F
+                            ^
+SyntaxError: f-string: expecting '=', or '!', or ':', or '}'
+nohup: ignoring input
+  File "/data/data/com.termux/files/home/orion_guard/autosend/smtp_autosend.py", line 24
+    f.write(f"{time.strftime(%F
+                            ^
+SyntaxError: f-string: expecting '=', or '!', or ':', or '}'
+nohup: ignoring input

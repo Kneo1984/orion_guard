@@ -1,0 +1,18 @@
+🧠 ORION GUARD – SYSTEMPRÜFUNG INITIIERT
+----------------------------------------
+| Pfad | Status |
+|------|--------|
+| /data/data/com.termux/files/home/orion_guard | ✅ vorhanden |
+| /data/data/com.termux/files/home/orion_guard/releases | ✅ vorhanden |
+| /data/data/com.termux/files/home/orion_guard/public | ✅ vorhanden |
+| /data/data/com.termux/files/home/orion_guard/logs | ✅ vorhanden |
+| /data/data/com.termux/files/home/orion_guard/autostart | ✅ vorhanden |
+| /data/data/com.termux/files/home/orion_guard/ethics | ✅ vorhanden |
+| /data/data/com.termux/files/home/orion_guard/systemcheck | ✅ vorhanden |
+| /data/data/com.termux/files/home/orion_guard/build | ✅ vorhanden |
+| /data/data/com.termux/files/home/orion_guard/build/DEBIAN | ✅ vorhanden |
+| /data/data/com.termux/files/home/orion_guard/build/usr/bin | ✅ vorhanden |
+
+🔍 Abschluss: Systemverzeichnis-Check erfolgreich durchgeführt.
+Log unter ~/orion_guard/logs/systemcheck.log
+

@@ -1,0 +1,19 @@
+nohup: ignoring input
+  File "/data/data/com.termux/files/home/orion_guard/autosend/imap_watch.py", line 17
+    f.write(f"{time.strftime(%F
+                            ^
+SyntaxError: f-string: expecting '=', or '!', or ':', or '}'
+nohup: ignoring input
+  File "/data/data/com.termux/files/home/orion_guard/autosend/imap_watch.py", line 17
+    f.write(f"{time.strftime(%F
+                            ^
+SyntaxError: f-string: expecting '=', or '!', or ':', or '}'
+2025-06-13 03:47:39  ❌ IMAP-Fehler: 'ascii' codec can't encode character '\xa0' in position 2: ordinal not in range(128)
+❌ IMAP-Fehler: 'ascii' codec can't encode character '\xa0' in position 2: ordinal not in range(128)
+nohup: ignoring input
+2025-06-13 03:52:33  ❌ IMAP-Fehler: 'ascii' codec can't encode character '\xa0' in position 2: ordinal not in range(128)
+❌ IMAP-Fehler: 'ascii' codec can't encode character '\xa0' in position 2: ordinal not in range(128)
+2025-06-13 04:03:31  ❌ IMAP-Fehler: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+❌ IMAP-Fehler: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2025-06-13 04:05:46  ❌ IMAP-Fehler: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+❌ IMAP-Fehler: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'

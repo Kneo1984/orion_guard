@@ -1,0 +1,8 @@
+Package: orion-guard
+Version: 1.0
+Section: base
+Priority: optional
+Architecture: all
+Depends: bash
+Maintainer: Dennis Maier <kneolekks@gmail.com>
+Description: 🛡️ ORION GUARD – Lokale Firewall, VPN-Launcher, QR-Frontend & digitale Ethikinstanz.
