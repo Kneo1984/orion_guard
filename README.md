@@ -10,6 +10,8 @@
 **Zahlung:** PayPal-QR scannen, Betreff „Zugang 1/2/3“.  
 Mail an kontakt@orion-guard.org → du bekommst deinen Download-Link.
 
-👉 **[Zum Manifest](ORION_GUARD_OPEN_SOURCE_MANIFEST.md)**
 
-👉 **[Zum Manifest](ORION_GUARD_OPEN_SOURCE_MANIFEST.md)**
+
+---
+
+👉 **[Open Source Manifest ansehen](public/MANIFEST.md)**
