@@ -1,1 +1,1 @@
-# Sprachmodule\nAlle Sprachbefehle & Interfaces im Überblick.
+# Sprachmodule\n\nAlle Sprachbefehle & Interfaces im Überblick.

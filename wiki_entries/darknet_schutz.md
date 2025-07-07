@@ -1,1 +1,1 @@
-# Darknet-Schutz\nAUREON analysiert Bedrohungen im Darknet – rein defensiv.
+# Darknet Schutz\n\nAUREON analysiert, erkennt und reagiert autonom auf Bedrohungen aus dem Darknet. Rein ethisch.
