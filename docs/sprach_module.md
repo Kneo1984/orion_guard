@@ -1,1 +1,1 @@
-## Sprachmodule\nAlle Sprachbefehle, Interfaces und Modulbefehle – fortlaufend generiert.
+# Sprachmodule\nAlle Sprachbefehle & Interfaces im Überblick.

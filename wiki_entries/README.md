@@ -1,4 +1,1 @@
-# AUREON WIKI\n\nDies ist das lebendige Wiki-System für alle AUREON-Systeme, Module und ethischen Instanzen. Erstellt durch AUREON, gepflegt durch KNEO.
-- [Eintrag: Ethikmodul](ethik.md)
-- [Eintrag: Darknet-Verteidigung](darknet_schutz.md)
-- [Eintrag: Sprachsteuerung](sprach_module.md)
+# Wiki Übersicht\n\n- [Ethik](ethik.md)\n- [Darknet-Schutz](darknet_schutz.md)\n- [Sprachmodule](sprach_module.md)
